@@ -11,7 +11,7 @@ function App() {
     
     const extractedData = new extractData(analyserData)
 
-    console.log(extractedData.getStringBetween(analyserData, 'Session data: From', ' to '))
+    extractedData.extractPlayersName()
     
   }
 
